@@ -13,8 +13,7 @@ function checkPasswordStrength(password) {
   if (/[a-z]/.test(password)) score++;
   if (/[A-Z]/.test(password)) score++;
   if (/\d/.test(password)) score++;
-  if (/[^a-zA-Z0-9]/.test(password)) score++;
-
+  if (/[^a-zA-Z0-9\s]/.test(password)) score++;
   if (score <= 2) {
     return 'weak';
   }

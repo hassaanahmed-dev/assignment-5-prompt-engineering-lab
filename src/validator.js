@@ -23,7 +23,7 @@ function validateRegistrationForm(data) {
   const phone = (data.phone || '').trim();
   if (phone.length === 0) {
     errors.phone = 'Phone number is required.';
-  } else if (!/^\+?\d{7,15}$/.test(phone.replace(/[\s\-()]/g, ''))) {
+  } else if (!/^\+?\d{7,15}$/.test(phone.replace(/[\s\-().]/g, ''))) {
     errors.phone = 'Invalid phone number format.';
   }
 
