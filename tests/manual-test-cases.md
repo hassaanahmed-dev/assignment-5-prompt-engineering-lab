@@ -12,6 +12,16 @@
 | Mixed characters without special character | `"Password1"` | `medium` | `medium` | Pass |
 | Mixed characters with special character | `"Password1!"` | `strong` | `strong` | Pass |
 
-### Test Summary
 
-The password strength checker was manually tested with empty input, invalid input, short passwords, numbers-only passwords, and passwords containing different character types. All test cases produced the expected results.
+## Mission 2 - Form Validator
+
+| Test Case | Input | Expected Output | Actual Output | Status |
+|---|---|---|---|---|
+| Valid form | Valid name, email, phone and matching passwords | `isValid: true` | `isValid: true` | Pass |
+| Empty name | Name is empty | Name required error | Name required error | Pass |
+| Invalid email | `salman@invalid` | Invalid email format | Invalid email format | Pass |
+| Invalid phone | `123` | Invalid phone format | Invalid phone format | Pass |
+| Short password | `abc123` | Password length error | Password length error | Pass |
+| Password mismatch | Password and confirm password differ | Password mismatch error | Password mismatch error | Pass |
+| Invalid form data | `null` | Invalid form data error | Invalid form data error | Pass |
+
