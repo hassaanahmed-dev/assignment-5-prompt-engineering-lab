@@ -1,3 +1,45 @@
+# Mission 6 - Responsible AI Usage
+
+## Professional Prompt
+
+Role:
+Act as a senior software engineer and responsible AI advisor.
+
+Task:
+Write a responsible AI usage policy for software developers.
+
+Context:
+The policy will guide developers who use AI tools for code generation, debugging, refactoring, documentation, and code review.
+
+Requirements:
+- Explain what information developers must never paste into AI tools.
+- Include passwords, API keys, authentication tokens, and secrets.
+- Include `.env` files.
+- Include private company information and client data.
+- Include personal or sensitive information.
+- Explain why developers should not blindly copy AI-generated code.
+- Explain how AI-generated output should be manually reviewed and tested.
+- Explain how AI usage should be disclosed honestly.
+- Mention that developers remain responsible for the final submitted code.
+
+Constraints:
+- Keep the policy clear and professional.
+- Use simple language.
+- Do not include confidential examples or real credentials.
+- Organize the policy with headings and bullet points.
+
+Output Format:
+1. Purpose
+2. Data Privacy and Confidentiality
+3. Secrets and Credentials
+4. AI Output Verification
+5. Blind Copying
+6. Responsible AI Disclosure
+7. Developer Responsibility
+8. Summary
+
+# AI Response
+
 # Responsible AI Usage Policy for Software Developers
 
 ## 1. Purpose
@@ -84,3 +126,4 @@ AI tools are assistants, not authors. The signature at the bottom of the commit 
 | Blind copying | Never use code you do not fully understand |
 | Disclosure | Be honest about AI tool usage in PRs and documentation |
 | Responsibility | The developer owns the code, not the AI tool |
+
