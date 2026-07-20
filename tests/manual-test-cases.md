@@ -25,3 +25,13 @@
 | Password mismatch | Password and confirm password differ | Password mismatch error | Password mismatch error | Pass |
 | Invalid form data | `null` | Invalid form data error | Invalid form data error | Pass |
 
+## Mission 3 - Discount Calculator
+
+| Test Case | Input | Expected Output | Actual Output | Status |
+|---|---|---|---|---|
+| 10% discount | `200, 10` | `180` | `180` | Pass |
+| 25% discount | `100, 25` | `75` | `75` | Pass |
+| 50% discount | `50, 50` | `25` | `25` | Pass |
+| Zero price | `0, 10` | `0` | `0` | Pass |
+| Zero discount | `100, 0` | `100` | `100` | Pass |
+| Full discount | `100, 100` | `0` | `0` | Pass |
