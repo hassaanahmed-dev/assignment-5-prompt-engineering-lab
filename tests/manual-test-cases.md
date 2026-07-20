@@ -35,3 +35,14 @@
 | Zero price | `0, 10` | `0` | `0` | Pass |
 | Zero discount | `100, 0` | `100` | `100` | Pass |
 | Full discount | `100, 100` | `0` | `0` | Pass |
+
+## Mission 4 - Text Analyzer Refactoring
+
+| Test Case | Input | Expected Output | Actual Output | Status |
+|---|---|---|---|---|
+| Empty text | `""` | `{ words: 0, charactersWithoutSpaces: 0, charactersWithSpaces: 0 }` | Same | Pass |
+| Single word | `"hello"` | `{ words: 1, charactersWithoutSpaces: 5, charactersWithSpaces: 5 }` | Same | Pass |
+| Two words | `"hello world"` | `{ words: 2, charactersWithoutSpaces: 10, charactersWithSpaces: 11 }` | Same | Pass |
+| Multiple spaces | `"  hello   world  "` | `{ words: 2, charactersWithoutSpaces: 10, charactersWithSpaces: 17 }` | Same | Pass |
+| Multiple single-letter words | `"a b c d e"` | `{ words: 5, charactersWithoutSpaces: 5, charactersWithSpaces: 9 }` | Same | Pass |
+| Spaces only | `"   "` | `{ words: 0, charactersWithoutSpaces: 0, charactersWithSpaces: 3 }` | Same | Pass |
