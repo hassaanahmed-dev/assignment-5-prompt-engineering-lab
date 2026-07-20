@@ -33,6 +33,15 @@ The following prompting techniques were used throughout the assignment:
 
 ## Missions Completed
 
+| Mission | Focus | Prompt Documentation | Source / Final File |
+|---|---|---|---|
+| Mission 1 | Bad Prompt vs Professional Prompt | [View Prompt](prompts/01-bad-vs-good-prompts.md) | [passwordStrength.js](src/passwordStrength.js) |
+| Mission 2 | Constraint-Based Code Generation | [View Prompt](prompts/02-code-generation-prompts.md) | [validator.js](src/validator.js) |
+| Mission 3 | Debugging with AI | [View Prompt](prompts/03-debugging-prompts.md) | [discountCalculator.js](src/discountCalculator.js) |
+| Mission 4 | Refactoring with AI | [View Prompt](prompts/04-refactoring-prompts.md) | [textAnalyzer.js](src/textAnalyzer.js) |
+| Mission 5 | AI Code Review | [View Prompt](prompts/05-code-review-prompts.md) | [passwordStrength.js](src/passwordStrength.js), [validator.js](src/validator.js), [discountCalculator.js](src/discountCalculator.js) |
+| Mission 6 | Responsible AI Usage | [View Prompt](prompts/06-responsible-ai-prompts.md) | [Responsible AI Policy](responsible-ai-policy.md) |
+
 ### Mission 1 - Bad Prompt vs Professional Prompt
 
 Compared a bad, better, and professional prompt for generating a JavaScript password strength checker.
