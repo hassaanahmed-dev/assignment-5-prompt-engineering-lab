@@ -46,3 +46,15 @@
 | Multiple spaces | `"  hello   world  "` | `{ words: 2, charactersWithoutSpaces: 10, charactersWithSpaces: 17 }` | Same | Pass |
 | Multiple single-letter words | `"a b c d e"` | `{ words: 5, charactersWithoutSpaces: 5, charactersWithSpaces: 9 }` | Same | Pass |
 | Spaces only | `"   "` | `{ words: 0, charactersWithoutSpaces: 0, charactersWithSpaces: 3 }` | Same | Pass |
+
+## Mission 5 - AI Code Review Improvements
+
+| Test Case | Input | Expected Output | Actual Output | Status |
+|---|---|---|---|---|
+| Valid discount | `calculateDiscount(200, 10)` | `180` | `180` | Pass |
+| Invalid price type | `calculateDiscount("abc", 10)` | `null` | `null` | Pass |
+| Negative discount | `calculateDiscount(100, -20)` | `null` | `null` | Pass |
+| Discount over 100 | `calculateDiscount(100, 200)` | `null` | `null` | Pass |
+| Spaces-only password | `"        "` | `weak` | `weak` | Pass |
+| Password with special character | `"Password1!"` | `strong` | `strong` | Pass |
+| Phone with dots | `"+1.234.567.8901"` | Valid phone | Valid phone | Pass |
